@@ -15,9 +15,9 @@ export default function Home() {
   // produto = valor que eu tenho que definir na interface lá em ProdutoItem
 
   return (
-    <div className="flex gap-5 flex-wrap">
-      {produtos.map((value, index) => (
-        <ProdutoItem key={index} produto={value} />
+    <div className="grid grid-cols-4 gap-5">
+      {produtos.map((produto) => (
+        <ProdutoItem key={produto.id} produto={produto} />
       ))}
     </div>
   );
