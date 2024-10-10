@@ -1,5 +1,5 @@
 export default interface Especificacoes {
-    destaque: string
+    destaque: string;
     // mostrado na aula de esquenta de typescript
-    [chave: string]: string | number | boolean
+    [chave: string]: string | number | boolean;
 }

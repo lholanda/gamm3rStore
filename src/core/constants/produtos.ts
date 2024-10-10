@@ -1,4 +1,4 @@
-import Produto from '../produto/Produto'
+import Produto from '../produto/Produto';
 
 const produtos: Produto[] = [
     {
@@ -10,7 +10,8 @@ const produtos: Produto[] = [
         modelo: 'AN515-54-58CL',
         imagem: 'https://firebasestorage.googleapis.com/v0/b/formacao-dev.appspot.com/o/lancamentos%2Fgam3rstore%2Facer-nitro-5.png?alt=media&token=094ba6a8-1a4d-414a-b32c-c176bfeaca8e',
         nota: 4.5,
-        videoReview: 'https://www.youtube.com/embed/8NQFr9De3lU?si=s_lN2KTQresD-36Y',
+        videoReview:
+            'https://www.youtube.com/embed/8NQFr9De3lU?si=s_lN2KTQresD-36Y',
         tags: ['Baixou'],
         precoBase: 6499.99,
         precoPromocional: 5999.99,
@@ -30,12 +31,14 @@ const produtos: Produto[] = [
     {
         id: 2,
         nome: 'Notebook Gamer Dell G5',
-        descricao: 'O Dell G5 oferece uma experiência de jogo fluida e gráficos de alta qualidade.',
+        descricao:
+            'O Dell G5 oferece uma experiência de jogo fluida e gráficos de alta qualidade.',
         marca: 'Dell',
         modelo: 'G5-5590-A30B',
         imagem: 'https://firebasestorage.googleapis.com/v0/b/formacao-dev.appspot.com/o/lancamentos%2Fgam3rstore%2Fdell-g5.png?alt=media&token=ac1cb3fa-4cc4-4f30-a831-19bca5b85644',
         nota: 5,
-        videoReview: 'https://www.youtube.com/embed/N5C1ALQkv1Q?si=KuVr4V6-A02Z23XK',
+        videoReview:
+            'https://www.youtube.com/embed/N5C1ALQkv1Q?si=KuVr4V6-A02Z23XK',
         tags: [],
         precoBase: 7299.99,
         precoPromocional: 6799.99,
@@ -61,7 +64,8 @@ const produtos: Produto[] = [
         modelo: 'Legion Y540-15IRH',
         imagem: 'https://firebasestorage.googleapis.com/v0/b/formacao-dev.appspot.com/o/lancamentos%2Fgam3rstore%2Flegion-y540.png?alt=media&token=b36f6c61-8b7d-4454-9940-d945b89d44f8',
         nota: 4.5,
-        videoReview: 'https://www.youtube.com/embed/knhriyVTMpA?si=3RduZcEVx4mjEwER',
+        videoReview:
+            'https://www.youtube.com/embed/knhriyVTMpA?si=3RduZcEVx4mjEwER',
         tags: ['Recomendado'],
         precoBase: 6999.99,
         precoPromocional: 6499.99,
@@ -87,7 +91,8 @@ const produtos: Produto[] = [
         modelo: 'Pavilion 15-dk0010',
         imagem: 'https://firebasestorage.googleapis.com/v0/b/formacao-dev.appspot.com/o/lancamentos%2Fgam3rstore%2Fhp-pavilion-dk0010.png?alt=media&token=6f0d7c8d-0612-4ca9-9ee8-1849971ae8c4',
         nota: 4,
-        videoReview: 'https://www.youtube.com/embed/dCvvugSjnZ4?si=zOMGbydgNdkB9QwY',
+        videoReview:
+            'https://www.youtube.com/embed/dCvvugSjnZ4?si=zOMGbydgNdkB9QwY',
         tags: [],
         precoBase: 5499.99,
         precoPromocional: 4999.99,
@@ -113,7 +118,8 @@ const produtos: Produto[] = [
         modelo: 'TUF A15 FA506IV',
         imagem: 'https://firebasestorage.googleapis.com/v0/b/formacao-dev.appspot.com/o/lancamentos%2Fgam3rstore%2Fasus-tuf-a15.png?alt=media&token=989d3375-f26b-4ada-a920-afa41dfdb8de',
         nota: 5,
-        videoReview: 'https://www.youtube.com/embed/v-LmH_Gfnn8?si=IGQmsvb-eZyDInwV',
+        videoReview:
+            'https://www.youtube.com/embed/v-LmH_Gfnn8?si=IGQmsvb-eZyDInwV',
         tags: ['Oportunidade'],
         precoBase: 7499.99,
         precoPromocional: 6999.99,
@@ -139,7 +145,8 @@ const produtos: Produto[] = [
         modelo: 'GL65 Leopard 10SFK-062',
         imagem: 'https://firebasestorage.googleapis.com/v0/b/formacao-dev.appspot.com/o/lancamentos%2Fgam3rstore%2Fmsi-gl65.png?alt=media&token=24798828-8546-4720-bfe7-f813f4e78507',
         nota: 4,
-        videoReview: 'https://www.youtube.com/embed/uT-YHREKDaE?si=Z7e2lk9G-H7-cghs',
+        videoReview:
+            'https://www.youtube.com/embed/uT-YHREKDaE?si=Z7e2lk9G-H7-cghs',
         tags: ['Melhor RTX 2070'],
         precoBase: 8999.99,
         precoPromocional: 8499.99,
@@ -165,7 +172,8 @@ const produtos: Produto[] = [
         modelo: 'Blade 15 Base',
         imagem: 'https://firebasestorage.googleapis.com/v0/b/formacao-dev.appspot.com/o/lancamentos%2Fgam3rstore%2Frazer-blade-15.png?alt=media&token=6e23866d-56d0-4da9-94e8-feb1b57d8fac',
         nota: 5,
-        videoReview: 'https://www.youtube.com/embed/7kpreUxmHvA?si=wj5A9bw4F8zm_w_Y',
+        videoReview:
+            'https://www.youtube.com/embed/7kpreUxmHvA?si=wj5A9bw4F8zm_w_Y',
         tags: [],
         precoBase: 12499.99,
         precoPromocional: 11999.99,
@@ -191,7 +199,8 @@ const produtos: Produto[] = [
         modelo: 'm15 R3',
         imagem: 'https://firebasestorage.googleapis.com/v0/b/formacao-dev.appspot.com/o/lancamentos%2Fgam3rstore%2Falienware-m15.png?alt=media&token=85df89d1-3db1-4978-9581-4802b42d7c6e',
         nota: 4.5,
-        videoReview: 'https://www.youtube.com/embed/OywbZPwHJBw?si=cZmqJESmXGh-D1Bw',
+        videoReview:
+            'https://www.youtube.com/embed/OywbZPwHJBw?si=cZmqJESmXGh-D1Bw',
         tags: ['Sem juros'],
         precoBase: 14999.99,
         precoPromocional: 13999.99,
@@ -329,7 +338,8 @@ const produtos: Produto[] = [
         modelo: 'CH-9109010-NA',
         imagem: 'https://firebasestorage.googleapis.com/v0/b/formacao-dev.appspot.com/o/lancamentos%2Fgam3rstore%2Fteclado-corsair-k70.png?alt=media&token=3dbe507e-1df9-4743-b8c4-cd782cfe6c63',
         nota: 4.8,
-        videoReview: 'https://www.youtube.com/embed/1ABIgPdZrkI?si=7HUrXG7JD-vkQR5_',
+        videoReview:
+            'https://www.youtube.com/embed/1ABIgPdZrkI?si=7HUrXG7JD-vkQR5_',
         tags: ['RGB Dinâmico', 'Estrutura em Alumínio', 'Switch Silencioso'],
         precoBase: 1799.99,
         precoPromocional: 1349.99,
@@ -383,7 +393,12 @@ const produtos: Produto[] = [
         imagem: 'https://firebasestorage.googleapis.com/v0/b/formacao-dev.appspot.com/o/lancamentos%2Fgam3rstore%2Fmouse-logitech-g403-hero.png?alt=media&token=869b7dff-b08e-449f-b35c-c16d95d5cbe3',
         nota: 4.8,
         videoReview: 'https://www.youtube.com/embed/SjxHa-hv_2c',
-        tags: ['Ergonômico', 'Peso Ajustável', 'Sensor HERO', 'Custo Benefício'],
+        tags: [
+            'Ergonômico',
+            'Peso Ajustável',
+            'Sensor HERO',
+            'Custo Benefício',
+        ],
         precoBase: 399.99,
         precoPromocional: 299.99,
         menorPreco: 279.99,
@@ -719,6 +734,6 @@ const produtos: Produto[] = [
             peso: '4.05 kg',
         },
     },
-]
+];
 
-export default produtos
+export default produtos;

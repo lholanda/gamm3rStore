@@ -14,7 +14,7 @@
   }
 }
 
-h1{
+h1 {
   font-size: 32px;
 }
 
@@ -27,5 +27,11 @@ body {
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+
+  @layer components {
+    .container {
+      @apply max-w-7xl mx-auto px-10;
+    }
   }
 }
