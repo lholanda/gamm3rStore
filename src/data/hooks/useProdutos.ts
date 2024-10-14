@@ -1,12 +1,12 @@
-'use client';
+'use client'
 import { Produto } from '@/core';
-import { useEffect, useState } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 
 const urlBase = 'http://localhost:3005';
 
 export default function useProdutos() {
+  // aqui retorna um array 
   const [produtos, setProdutos] = useState<Produto[]>([]);
-  console.log('teste useProdutos()');
 
   async function obterProdutos(): Promise<Produto[]> {
     const resp = await fetch(`${urlBase}/produtos`);
@@ -14,21 +14,22 @@ export default function useProdutos() {
     return produtos ?? [];
   }
 
-  async function obterProdutoPorId(id: number): Promise<Produto | null> {
+  // const obterProdutoPorId = useCallback( por que esta funcao é exportada
+  // aqui retorna um array 
+  const obterProdutoPorId = useCallback(async function obterProdutoPorId(id: number): Promise<Produto | null> {
     const resp = await fetch(`${urlBase}/produtos/${id}`);
-    const produtos = await resp.json();
-    return produtos ?? [];
-  }
+    const produto = await resp.json();  
+    return produto ?? null;
+  },[]);
 
   //const obterProdutosPorId = obterProdutoPorId();
-
 
   useEffect(() => {
     obterProdutos().then(setProdutos);
   }, []);
 
   return {
-    produtos, obterProdutoPorId
+    produtos, obterProdutoPorId,
   };
 }
 
